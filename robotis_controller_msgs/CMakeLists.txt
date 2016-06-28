@@ -18,6 +18,7 @@ find_package(catkin REQUIRED COMPONENTS
 ################################################################################
 add_message_files(
   FILES
+  RebootDevice.msg
   SyncWriteItem.msg
   JointCtrlModule.msg
   StatusMsg.msg
