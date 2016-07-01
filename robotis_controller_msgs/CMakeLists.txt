@@ -27,6 +27,8 @@ add_message_files(
 add_service_files(
   FILES
   GetJointModule.srv
+  SetCtrlModule.srv
+  SetJointCtrlModule.srv
 )
 
 generate_messages(
